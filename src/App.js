@@ -1,31 +1,40 @@
 import { useEffect, useState } from 'react';
+import { ReactComponent as Bottle } from './Bottle.svg'
+import { ReactComponent as Ice } from './IceCube.svg'
 
 const DEFAULT_TEMPERATURE = 70;
 
+// State computation from data 
 function getWaterState(temperature) {
   if (temperature >= 100) return 'gas';
-  if (temperature <= 0) return 'ice';
+  if (temperature <= 0) return 'solid';
   return 'liquid'
 }
 
 function App() {
+  // Data setup
   const [temperature, setTemperature] = useState(DEFAULT_TEMPERATURE);
-  const [shape, setShape] = useState('shapeless');
 
+  // State setup
+  const [shape, setShape] = useState('shapeless');
   const [waterState, setWaterState] = useState(getWaterState(DEFAULT_TEMPERATURE));
 
+  // Relationships between state and data
   useEffect(() => {
     setWaterState(getWaterState(temperature))
   }, [temperature])
 
+  // Relationships between state and state
   useEffect(() => {
-    if (waterState === 'gas') setShape('shapeless')
-  }, [waterState])
+    if (waterState === 'gas' && shape !== "bottle") setShape('shapeless')
+  }, [waterState, shape])
 
+  // Data mutation from side-effects
   function handleTemperatureChange(e) {
     setTemperature(Number(e.target.value))
   }
 
+  // State mutation from side-effects
   function handlePourOut() {
     if (waterState === 'liquid') {
       setShape('shapeless');
@@ -42,10 +51,11 @@ function App() {
     }
   }
 
+  // UI with lots of conditional logic, data handling and state handling
   return (
     <body className="background">
       <div className="control-plane">
-        <label>temperature
+        <label>temperature {temperature} C
           <div className="slider-container">
             <input placeholder='temperature' type="range" min="0" max="100" className="slider" onChange={handleTemperatureChange} value={temperature}></input>
           </div>
@@ -55,18 +65,22 @@ function App() {
         <button onClick={handlePourIntoBottle} className="ball bubble">Pour into bottle</button>
       </div>
       <div className='info-plane'>
-        <div>temperature: {temperature}*C</div>
         <div>shape: {shape}</div>
         <div>waterState: {waterState}</div>
       </div>
       <div className="display-plane">
-        <div class="drop"></div>
-        <div class="wave"></div>
-        <div className="shapeless"></div>
+        {waterState === "liquid" && shape === "shapeless" && <div className='liquid'>
+          <div class="drop"></div>
+          <div class="wave"></div>
+        </div>}
+
+        {waterState === "solid" && <div className='snow' />}
+        {waterState === "solid" && shape === "shapeless" && <div className="ice"><Ice /></div>}
         <div className="cup"></div>
-        <div className="bottle"></div>
+        {shape === 'bottle' && <div className='vessel'><div className="bottle"><Bottle /></div></div>}
+        {shape === 'cup' && <div className='vessel'><div className="cup"><img src="/glass.png" /></div></div>}
       </div>
-    </body>
+    </body >
   );
 }
 

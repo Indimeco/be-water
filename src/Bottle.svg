@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 129.35 236.64" version="1.1">
+  <defs id="defs4">
+    <filter id="filter3782" height="1.3144" width="2.5194" y="-.15718" x="-.75969" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3784" stdDeviation="5.817206"/>
+    </filter>
+    <filter id="filter3821" height="1.3687" width="1.0953" y="-.18433" x="-.047651" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3823" stdDeviation="1.2613536"/>
+    </filter>
+    <filter id="filter3888" height="1.9328" width="1.2079" y="-.4664" x="-.10397" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3890" stdDeviation="16.628243"/>
+    </filter>
+    <radialGradient id="radialGradient3906" gradientUnits="userSpaceOnUse" cy="144.28" cx="398.36" gradientTransform="matrix(-1.4134 -.011334 .0042631 -.53165 960.98 159.2)" r="80.811">
+      <stop id="stop3797" stop-color="#025" offset="0"/>
+      <stop id="stop3805" stop-color="#00265f" offset=".96612"/>
+      <stop id="stop3803" stop-color="#2a7fff" offset=".97092"/>
+      <stop id="stop3799" stop-color="#003380" offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="layer1" transform="translate(-67.385 -38.604)">
+    <g id="g3892" transform="matrix(.27898 0 0 .27898 21.227 12.806)">
+      <path id="path3882" opacity=".48971" d="m581.85 858c0 23.628-85.922 42.783-191.91 42.783s-191.91-19.155-191.91-42.783 85.922-42.783 191.91-42.783 191.91 19.155 191.91 42.783z" transform="translate(7.3342)" filter="url(#filter3888)" fill="#1c1f24"/>
+      <g id="g3825">
+        <rect id="rect2985" ry="17.143" height="600" width="248.57" y="260.93" x="277.14" fill="#59f"/>
+        <rect id="rect3763" ry="0" height="587.75" width="24.977" y="273.19" x="299.52" fill="#2a7fff"/>
+        <rect id="rect3765" ry="0" height="587.75" width="24.977" y="272.25" x="477.77" fill="#2a7fff"/>
+        <rect id="rect3761" ry="0" height="600" width="86.236" y="260.93" x="357.72" fill="#2a7fff"/>
+        <path id="path3772" opacity=".16872" d="m523.76 481.13c0 5.0748-53.824 9.1888-120.22 9.1888s-120.22-4.114-120.22-9.1888 53.824-9.1888 120.22-9.1888 120.22 4.114 120.22 9.1888z" fill="#acf" transform="matrix(1.0446 0 0 1 -17.227 0)"/>
+        <path id="rect2987" fill="#2a7fff" d="m342.81 147.28 118.59-1.3143 66.524 131.43c-113.1-1.4793-182.55-7.8793-251.63 0z"/>
+        <path id="rect2990" d="m333.19 101.67c55.209-13.708 99.287-10.718 138.21 0 6.252 1.7216 11.705 5.2206 11.705 11.705v54.235c0 6.4848-5.2206 11.705-11.705 11.705h-138.21c-6.4848 0-11.705-5.2206-11.705-11.705v-54.235c0-6.4848 5.4117-10.143 11.705-11.705z" fill="url(#radialGradient3906)"/>
+        <rect id="rect3774" opacity=".33333" ry="10.754" height="376.41" width="248.57" y="484.53" x="277.14" fill="#59f"/>
+        <path id="path3776" opacity=".2963" d="m416.56 225.37c0 24.528-4.114 44.413-9.1888 44.413s-9.1888-19.884-9.1888-44.413c0-24.528 4.114-44.413 9.1888-44.413s9.1888 19.884 9.1888 44.413z" transform="matrix(1.9803 0 0 .74476 -405.3 55.377)" filter="url(#filter3782)" fill="#acf"/>
+        <path id="path3807" opacity=".1893" d="m422.67 108.93c0 4.535-14.222 8.2113-31.765 8.2113s-31.765-3.6763-31.765-8.2113 14.222-8.2113 31.765-8.2113 31.765 3.6763 31.765 8.2113z" transform="matrix(1.7211 0 0 1 -272.96 -2.593)" filter="url(#filter3821)" fill="#2a7fff"/>
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Water Bottle</dc:title>
+        <dc:date>2012-04-07T10:26:15</dc:date>
+        <dc:description>Water Bottle </dc:description>
+        <dc:source>http://openclipart.org/detail/169389/water-bottle-by-gsagri04</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>gsagri04</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Water</rdf:li>
+            <rdf:li>aqua</rdf:li>
+            <rdf:li>bottle</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clip-art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>container</rdf:li>
+            <rdf:li>domain</rdf:li>
+            <rdf:li>free</rdf:li>
+            <rdf:li>liquid</rdf:li>
+            <rdf:li>plastic</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public</rdf:li>
+            <rdf:li>storage</rdf:li>
+            <rdf:li>summer</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.35 236.64">
+    <defs>
+        <filter id="c" height="1.314" width="2.519" y="-.157" x="-.76" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="5.817"/>
+        </filter>
+        <filter id="d" height="1.369" width="1.095" y="-.184" x="-.048" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="1.261"/>
+        </filter>
+        <filter id="a" height="1.933" width="1.208" y="-.466" x="-.104" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="16.628"/>
+        </filter>
+        <radialGradient id="b" gradientUnits="userSpaceOnUse" cy="144.28" cx="398.36" gradientTransform="matrix(-1.4134 -.01133 .00426 -.53165 960.98 159.2)" r="80.811">
+            <stop stop-color="#025" offset="0"/>
+            <stop stop-color="#00265f" offset=".966"/>
+            <stop stop-color="#2a7fff" offset=".971"/>
+            <stop stop-color="#003380" offset="1"/>
+        </radialGradient>
+    </defs>
+    <path opacity=".49" d="M581.85 858c0 23.628-85.922 42.783-191.91 42.783S198.03 881.628 198.03 858s85.922-42.783 191.91-42.783S581.85 834.372 581.85 858z" transform="translate(-44.112 -25.798) scale(.27898)" filter="url(#a)" fill="#1c1f24"/>
+    <g transform="translate(-46.158 -25.798) scale(.27898)">
+        <rect ry="17.143" height="600" width="248.57" y="260.93" x="277.14" fill="#59f"/>
+        <rect ry="0" height="587.75" width="24.977" y="273.19" x="299.52" fill="#2a7fff"/>
+        <rect ry="0" height="587.75" width="24.977" y="272.25" x="477.77" fill="#2a7fff"/>
+        <rect ry="0" height="600" width="86.236" y="260.93" x="357.72" fill="#2a7fff"/>
+        <path opacity=".169" d="M529.893 481.13c0 5.075-56.225 9.189-125.582 9.189s-125.582-4.114-125.582-9.189 56.225-9.189 125.582-9.189 125.582 4.114 125.582 9.189z" fill="#acf"/>
+        <path fill="#2a7fff" d="m342.81 147.28 118.59-1.314 66.524 131.43c-113.1-1.48-182.55-7.88-251.63 0z"/>
+        <path d="M333.19 101.67c55.209-13.708 99.287-10.718 138.21 0 6.252 1.722 11.705 5.22 11.705 11.705v54.235a11.68 11.68 0 0 1-11.705 11.705H333.19a11.68 11.68 0 0 1-11.705-11.705v-54.235c0-6.485 5.412-10.143 11.705-11.705z" fill="url(#b)"/>
+        <rect opacity=".333" ry="10.754" height="376.41" width="248.57" y="484.53" x="277.14" fill="#59f"/>
+        <path opacity=".296" d="M416.56 225.37c0 24.528-4.114 44.413-9.189 44.413s-9.189-19.884-9.189-44.413c0-24.528 4.114-44.413 9.19-44.413s9.188 19.884 9.188 44.413z" transform="matrix(1.9803 0 0 .74476 -405.3 55.377)" filter="url(#c)" fill="#acf"/>
+        <path opacity=".189" d="M422.67 108.93c0 4.535-14.222 8.211-31.765 8.211s-31.765-3.676-31.765-8.211 14.222-8.211 31.765-8.211 31.765 3.676 31.765 8.211z" transform="matrix(1.7211 0 0 1 -272.96 -2.593)" filter="url(#d)" fill="#2a7fff"/>
+    </g>
+</svg>
