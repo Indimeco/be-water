@@ -192,18 +192,19 @@ body {
 }
 
 /* BUBBLE BUTTON */
+.control-plane {
+  margin: 36px 0;
+}
 
 button {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   cursor: pointer;
   font-family: inherit;
 }
 
 .ball {
   display: inline-block;
-  /* width: 100%;
-  height: 100%; */
   border-radius: 100%;
   position: relative;
   background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
